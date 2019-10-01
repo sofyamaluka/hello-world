@@ -1,0 +1,44 @@
+header#page_header nav li, footer#page_footer nav li {
+padding: 0; /* убрать внешние отступы */
+margin: 0 20px 0 0; 
+display: inline; }
+
+header#page_header nav ul li, footer#page_footer nav ul li{
+padding: 0; /* убрать внешние отступы */
+margin: 0 20px 0 0; 
+display: inline; }
+
+Body {
+    Width:960px;
+    Font-family: Times New Roman}
+    
+    ol {margin-left: 10pt} /* Отступ слева 20 пикселей */
+    ul {margin-left: 30pt}/* Отступ слева 40 пикселей */
+    li {font-family: arial;}
+    
+        header#page_header li, footer#page_footer li  {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display:inline-block;
+            }
+    
+        header#page_header, footer#page_footer {
+            text-align: center;
+        }
+       
+        header#page_header a, footer#page_footer a {
+            display: block;
+            padding: 5px 15px;
+            color: #fff;
+            font-size:150%;
+            text-decoration: none;
+            background: #03658e;
+            margin-right: 5px; /* добавляем отступы между пунктами */
+        }
+    
+        header#page_header a:hover, footer#page_footer a:hover {
+            background: #8AB8CC;
+        }
+
+    
